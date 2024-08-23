@@ -1,0 +1,210 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #60e7e7;
+    background-image: linear-gradient(90deg, #FAACA8 55%, #f3d3d2 100%);  
+}
+
+
+
+.container{
+    width: 300px;
+    margin-top: 160px;
+    height: 400px;
+  
+}
+
+#heading{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px  azure;
+    font-size:1.5rem;
+    margin-left: 5px;
+    padding-bottom: 2rem;
+}
+
+
+[data-passwordDisplay]{
+    border: 2px solid rgb(246, 105, 128);
+    background-color: rgb(246, 105, 128);
+    margin-top: 12px;
+    color: rgb(74,234,106);
+    font-weight: bold;
+   
+    
+}
+.display-container{
+    margin-top: 10px;
+    background-color:rgb(246, 105, 128);
+    border-radius: 8px;
+    height: 40px;
+    box-shadow:1px 5px 6px rgb(197, 42, 99);
+    position: relative;
+
+}
+
+.display-container button{
+
+    position: absolute;
+    margin-top: 8px;
+    right:0.3rem;
+    height: 30px;
+    width: 35px;
+    
+}
+
+.write{
+    position: absolute;
+    background-color: aqua;
+    background-color: rgb(246, 105, 128);
+    color:rgb(74, 234, 106);
+    font-size: 1rem;
+    top:-35px;
+    left:-25px;
+    padding: 2px 4px;
+    border-radius: 1rem;
+    opacity: 0%;
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: all 250ms ease-in-out;
+}
+.write.active{
+    opacity: 1;
+    transform: scale(1);
+}
+/* [data-copyMsg]{
+    position: absolute;
+   
+} */
+
+/* [data-copyBtn]{
+   
+    border: 2px solid pink;
+    box-shadow: 1px 1px 3px 2px rgb(197, 42, 99) ;
+    border-radius: 12px;
+    color: rgb(18, 234, 227);
+    margin-left: 60px;
+   margin-top: -30px;
+    height: 20px; 
+    width: 50px;
+    background-color: rgb(246, 105, 128);
+     position: absolute;
+
+} */
+#image{
+     /* margin-top: 40px; */
+    /* margin-left: 15px;  */
+    overflow: none;
+     /* border: 2px solid rgb(246, 105, 128); 
+    background-color: rgb(246, 105, 128);  */
+    height: 18px;
+    width: 20px;
+}
+
+
+
+.slider{
+    accent-color: pink;
+}
+
+.input-container{
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color:rgb(246, 105, 128) ;
+    box-shadow:1px 5px 6px rgb(197, 42, 99) ;
+    height: 270px;
+    font-family: cursive;
+    
+}
+
+::placeholder{
+    color:rgb(74,234,106);
+    font-family: cursive;
+}
+
+.length-container{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+#password-length{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 1rem;
+   
+}
+
+
+[data-lengthNumber]{
+    margin-left: 130px;
+    margin-top: 20px;
+    color:  rgb(74, 234, 106);
+    font-size: 1rem;
+}
+
+[data-lengthSlider]{
+    margin-left: 10px;
+    width: 275px;
+    margin-top: 10px;
+   
+}
+
+.copybtn{
+    background-color: transparent;
+    border: none;
+    outline: none; 
+}
+
+.checkboxes{
+    font-family: cursive;
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 12px;
+    accent-color: rgb(18, 234, 227);
+    cursor: pointer;
+   
+}
+
+
+.strength-container{
+    display: flex;
+    flex-direction: row;
+}
+#strength{
+    margin-left: 13px;
+    color: white;
+    margin-top: 14px;
+}
+
+
+.indicator{
+    
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    
+    margin-top: 1.2rem;
+    margin-left: 10.5rem; 
+}
+[data-generatebtn]{
+    background-color: pink;
+    border: 2px solid pink;
+    border-radius: 8px;
+    height: 40px;
+    width: 280px;
+    margin-left: 8px;
+    box-shadow: 1px 4px 4px rgb(74, 234, 106);
+    margin-top: 14px;
+    color: rgb(13, 159, 42);
+    font-family: cursive;
+    font-size: 1rem;
+
+}
+
